@@ -1,0 +1,69 @@
+button{
+    padding:10px;
+    font-size: 16pt;
+    color:white;
+    border:none;
+    margin:10px;
+    transition: 500ms all ease;
+}
+button.round{
+    border-radius: 25px;
+}
+button:hover{
+    transform: scale(1.3);
+}
+
+/* Este es un selector mixto, etiqueta y clase */
+button.success{
+    background-color: rgb(60, 225, 60);
+}
+button.success:hover{
+    background-color: rgb(40, 143, 40);
+}
+button.success-outline{
+    background-color: rgba(0,0,0,0);
+    border: 3px solid rgb(60, 225, 60);
+    color:rgb(60, 225, 60);
+    border-radius: 5px;
+    padding: 7px;
+}
+button.success-shadow{
+    background-color: rgb(60, 225, 60);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(35, 129, 35);
+    padding-bottom:8px;
+}
+
+button.warning{
+    background-color: orange;
+}
+button.warning-outline{
+    background-color: rgba(0,0,0,0);
+    border: 3px solid orange;
+    color:orange;
+    border-radius: 5px;
+    padding: 7px;
+}
+button.warning-shadow{
+    background-color: orange;
+    border-radius: 5px;
+    border-bottom: 2px solid orangered;
+    padding-bottom:8px;
+}
+
+button.danger{
+    background-color: rgb(210, 44, 44);
+}
+button.danger-outline{
+    background-color: rgba(0,0,0,0);
+    border: 3px solid rgb(210, 44, 44);
+    color:rgb(210, 44, 44);
+    border-radius: 5px;
+    padding: 7px;
+}
+button.danger-shadow{
+    background-color: rgb(210, 44, 44);
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(106, 22, 22);
+    padding-bottom:8px;
+}

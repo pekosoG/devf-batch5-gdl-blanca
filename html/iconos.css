@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    background-color: lightgray;
+}
+nav{
+    background-color: #1f37c1;
+    color:white;
+    padding: 15px;
+}
+nav h3{
+    display: inline-block;
+}
+
+nav h3.derecha{
+    float: right;
+}
+
+.contenedor{
+    padding:16px;
+}
+
+.tarjeta{
+    background-color: white;
+    width: 70px;
+    height: 85px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: gray 1px 1px 10px;
+    float: left;
+    margin:10px;
+}
+
+.tarjeta i{
+    color:gray;
+}

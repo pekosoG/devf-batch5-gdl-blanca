@@ -1,4 +1,5 @@
 body{
+    font-family: 'Roboto', sans-serif;
     margin:0px; 
     background-color: rgb(67, 117, 67);
 }
@@ -6,6 +7,7 @@ nav{
     background-color: rgb(255, 255, 255);
     border-bottom: 3px solid rgb(129, 129, 129);
     padding:10px;
+    box-shadow: rgba(0,0,0,0.4) 1px 5px 5px;
 }
 
 .left-nav{
@@ -28,6 +30,23 @@ h1,h2,h3,h4{
     margin:0px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bolder;
+}
+
+.left-nav h3{
+    font-size: 1.6em;
+}
+
+.home-banner h1{
+    font-size: 65px;
+}
+
+.home-banner h2{
+    font-size: 55px;
+}
+
+h2,h4{
+    letter-spacing: 5px;
 }
 
 .right-nav{
@@ -70,6 +89,21 @@ h1,h2,h3,h4{
     padding: 16px;
     width: 80%;
     border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.4) 1px 1px 5px;
+    text-align: center;
+}
+
+.white-banner{
+    margin-top: 55px;
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    width: 100∞;
+    color:rgb(73, 73, 73);
+}
+
+.white-banner p{
+    font-size: 14px;
 }
 
 /*
@@ -77,6 +111,10 @@ h1,h2,h3,h4{
 */
 @media screen and (max-width: 480px){
     
+    nav{
+        display: grid;
+    }
+
     .left-nav{
         display: none;
     }
@@ -84,6 +122,15 @@ h1,h2,h3,h4{
     .home-banner i{
         display: inline-block;
     }
+
+    .home-banner h1{
+        font-size: 35px;
+    }
+    
+    .home-banner h2{
+        font-size: 25px;
+    }
+    
 
 }
 

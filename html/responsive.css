@@ -1,0 +1,89 @@
+body{
+    margin:0px; 
+    background-color: rgb(67, 117, 67);
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(129, 129, 129);
+    padding:10px;
+}
+
+.left-nav{
+    display: inline-block;
+}
+
+.left-nav i, .home-banner i{
+    color:orangered;
+}
+
+.home-banner i{
+    display: none;
+}
+
+.left-nav div, .home-banner div{
+    display: inline-block;
+}
+
+h1,h2,h3,h4{
+    margin:0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.right-nav{
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+
+.right-nav i{
+    margin-right: 10px;
+    color:lightgray;
+}
+
+.right-nav i:hover{
+    color:aqua;
+}
+
+.home-banner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home-banner div h1{
+    color:rgb(179, 255, 0);
+}
+
+.home-banner div h2{
+    color:white;
+}
+
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orange-banner{
+    background-color: rgb(255, 136, 0);
+    color:white;
+    padding: 16px;
+    width: 80%;
+    border-radius: 2px;
+}
+
+/*
+    SCREEN SIZE 480px (MOBILE)
+*/
+@media screen and (max-width: 480px){
+    
+    .left-nav{
+        display: none;
+    }
+
+    .home-banner i{
+        display: inline-block;
+    }
+
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase Boostrap 4</title>
+
+    <!-- Nustro CSS -->
+    <link rel="stylesheet" type="text/css" href="grid-tarea.css"/>
+    <!-- CSS de Bootstrap!-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<!-- 
+
+    El objtivo de esta practica es lograr replicar este resultado por medio de el Grid de Bootstrap
+
+    https://files.slack.com/files-pri/TA4P3QTPY-FA8KK3H1Q/15240153413772525400422887201028.jpg 
+
+-->
+<body>
+    <!-- Este es el contenedor donde por medio de la clase 'container' aplicamos el GRID de Bootstrap -->
+    <div class="container">
+        <!-- Este es nuestro primer ROW donde tambien definimos la altura que estabamos buscando -->
+        <div class="row altura-320px">
+            <!-- Comenzamos a definir dos espacios en blanco para usar las 12 columnas disponibles -->
+            <div class="col-2 vacio"></div>
+            <!-- Este es el primer cuadro "grande" de nuestra imagen -->
+            <div class="col-4 fondo-gris"></div>
+
+            <!-- En este segundo cuadro "grande" vamos a usar otro grid, para dividirlo en otras cuatro secciones
+                 Dentro de esta misma area, definimos otra vez el Grid de Bootrstrap para poder dividir el area interior -->
+            <div class="col-4 container">
+                <!-- Dentro de este cuadro, definimos un par de Row's para definir los otros cuadros necesarios
+                     En este caso tambien definimos una clase para tener la altura del cuadro que queremos -->
+                <div class="row altura-160px">
+                    <div class="col-6 fondo-gris"></div>
+                    <div class="col-6 fondo-gris"></div>
+                </div>
+                <!-- Lo mismo de acá arriba -->
+                <div class="row altura-160px">
+                    <div class="col-6 fondo-gris"></div>
+                    <div class="col-6 fondo-gris"></div>
+                </div>
+            </div>
+            <!-- Otra de las secciones vacias medio -->
+            <div class="col-2 vacio"></div>
+        </div>
+        <div class="row altura-320px">
+            <div class="col-2 vacio"></div>
+            <div class="col-6">
+                <div class="row altura-160px">
+                    <div class="col-4 fondo-gris"></div>
+                    <div class="col-8 fondo-gris"></div>
+                </div>
+                <div class="row altura-160px">
+                    <div class="col-8 fondo-gris"></div>
+                    <div class="col-4 fondo-gris"></div>
+                </div>
+            </div>
+            <div class="col-2 fondo-gris"></div>
+            <div class="col-2 vacio"></div>
+        </div>
+    </div>
+
+    <!-- Javascript de Bootstrap! -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>

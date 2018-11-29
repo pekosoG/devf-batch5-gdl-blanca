@@ -1,0 +1,22 @@
+.row{
+    margin-top: 3px;
+}
+.row div{
+    height: 60px;
+    padding:1px
+}
+.postit{
+    background-color: rgb(125, 186, 255);
+    width: 100%;
+    box-shadow: rgba(0,0,0,.5) 1px 1px 1px;
+    transition: all 500ms ease;
+}
+.amarillo{
+    background-color: yellow;
+}
+
+.postit:hover{
+    z-index: 10;
+    transform: scale(1.5);
+    box-shadow: rgba(0,0,0,.5) 3px 3px 3px;
+}

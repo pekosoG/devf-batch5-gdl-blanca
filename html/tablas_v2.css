@@ -1,0 +1,10 @@
+nav{
+    padding: 16px;
+}
+
+#elContainer .container{
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
